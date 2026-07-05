@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+@font-face{font-family:'Pretendard';font-weight:400;font-style:normal;font-display:swap;src:url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');}
+@font-face{font-family:'Pretendard';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');}
+@font-face{font-family:'Pretendard';font-weight:600;font-style:normal;font-display:swap;src:url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');}
+@font-face{font-family:'Pretendard';font-weight:700;font-style:normal;font-display:swap;src:url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');}
+html,body{margin:0;padding:0;background:#222;}
+</style>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./hand_oa/deck-stage.js" width="1280" height="720" hint-size="100%,100%">
+
+<section data-label="Title" data-speaker-notes="72세 여환의 손 골관절염 증례. 안과에서 RF 44.8로 협진 의뢰됨. 만성 손가락 관절통과 안구건조를 주소로, 핵심 감별은 골관절염, 류마티스 관절염, 그리고 결합조직질환(쇼그렌) 세 갈래." style="background:#2E3D86;color:#fff;font-family:'Pretendard',sans-serif;height:100%;position:relative;overflow:hidden;">
+  <div style="position:absolute;right:0;top:0;width:340px;height:100%;background:#24337C;"></div>
+  <img src="hand_oa/illus-title-motif.svg" alt="" style="position:absolute;right:340px;bottom:0;width:460px;height:auto;opacity:.5;pointer-events:none;">
+  <div style="position:absolute;left:64px;top:352px;width:820px;height:2px;background:#CCD2F0;opacity:.55;"></div>
+  <div style="position:absolute;right:0;top:250px;width:340px;text-align:center;color:#CCD2F0;">
+    <img src="hand_oa/illus-microscope.svg" alt="" style="width:120px;height:120px;display:block;margin:0 auto 14px;filter:brightness(0) invert(1);opacity:.85;">
+    <div style="font-size:29px;font-weight:700;letter-spacing:.02em;line-height:1.2;">CASE<br>PRESENTATION</div>
+  </div>
+  <div style="position:relative;padding:118px 64px;z-index:2;max-width:840px;">
+    <div style="font-size:15px;font-weight:700;letter-spacing:.14em;color:#CCD2F0;margin-bottom:22px;">RHEUMATOLOGY · A CASE REPORT</div>
+    <h1 style="font-size:50px;font-weight:700;margin:0 0 18px;letter-spacing:-0.01em;line-height:1.1;color:#fff;">A Case of Hand Osteoarthritis</h1>
+    <div style="font-size:22px;color:#CCD2F0;margin-bottom:10px;">Differential: Osteoarthritis vs Rheumatoid Arthritis vs CTD</div>
+    <div style="font-size:16px;color:#fff;margin-top:52px;">Department of Rheumatology · Internal Medicine</div>
+    <div style="font-size:14px;color:#CCD2F0;margin-top:6px;">Medical Student Case Presentation  ·  A-7  ·  June 2026</div>
+  </div>
+</section>
+
+<section data-label="01 CC / PI" data-speaker-notes="주소와 현병력. 72세 여환. 주소는 손가락 관절통과 안구건조. 5-6년 전부터 양손 DIP와 thumb IP에 통증과 변형, 오전과 손 사용 후 악화, 조조강직 5-10분으로 짧음. 3-4년 전부터 안구건조. 5월 좌측 상공막염으로 응급실 내원, 자가항체 검사에서 RF 44.8 상승 확인되어 협진 의뢰됨." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">01</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Chief Complaint &amp; Present Illness</div></div>
+  </div>
+  <div style="flex:1;padding:24px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:40% 60%;gap:28px;min-height:0;">
+    <div>
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px;">
+        <colgroup><col style="width:36%"><col style="width:64%"></colgroup>
+        <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:9px 12px;">Field</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:9px 12px;">Details</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:9px 12px;text-align:center;">Patient</td><td style="padding:9px 12px;text-align:center;">72 y/o Female</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:9px 12px;text-align:center;">Chief Complaint</td><td style="padding:9px 12px;text-align:center;">Finger joint arthralgia · dry eye</td></tr>
+          <tr><td style="padding:9px 12px;text-align:center;">Referral</td><td style="padding:9px 12px;text-align:center;color:#C00000;font-weight:700;">RF 44.8 → Rheumatology</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:9px 12px;text-align:center;">From</td><td style="padding:9px 12px;text-align:center;">Ophthalmology (episcleritis)</td></tr>
+        </tbody>
+      </table>
+      <div style="background:#2E3D86;color:#fff;padding:14px 18px;margin-top:14px;">
+        <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">BASELINE</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px;">
+          <div><div style="font-size:10px;color:#CCD2F0;">BP</div><div style="font-size:17px;font-weight:700;">128/74</div></div>
+          <div><div style="font-size:10px;color:#CCD2F0;">HR</div><div style="font-size:17px;font-weight:700;">72</div></div>
+          <div><div style="font-size:10px;color:#CCD2F0;">Ht</div><div style="font-size:17px;font-weight:700;">152</div></div>
+          <div><div style="font-size:10px;color:#CCD2F0;">Wt</div><div style="font-size:17px;font-weight:700;">67</div></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 style="font-size:16px;font-weight:700;color:#2E3D86;margin:0 0 8px;">Present Illness — Timeline</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 12px;font-size:13.5px;line-height:1.5;">
+        <li style="padding-left:16px;margin-bottom:6px;">2016 — R eye episcleritis; ophthalmology f/u, then lost</li>
+        <li style="padding-left:16px;margin-bottom:6px;">5–6 yrs ago — bilateral DIP &amp; thumb IP aching pain + <b>deformity</b>; worse in morning &amp; after hand use; <b>morning stiffness 5–10 min</b></li>
+        <li style="padding-left:16px;margin-bottom:6px;">3–4 yrs ago — daily dry eye, artificial tears 4–5×/day, frequent redness</li>
+        <li style="padding-left:16px;margin-bottom:6px;color:#C00000;font-weight:700;">May 3 2026 — L episcleritis, ER → FANA / ANCA (−/−)</li>
+        <li style="padding-left:16px;margin-bottom:6px;color:#C00000;font-weight:700;">May 18 2026 — RF 44.8 IU/mL → Rheumatology referral</li>
+      </ul>
+      <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:13px 18px;">
+        <div style="font-size:13px;line-height:1.55;">Mild tenderness, <span style="color:#C00000;font-weight:700;">no definite warmth</span>, no radiation. Chronic, slowly progressive; no systemic symptoms (no fever / weight loss).</div>
+      </div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">01 / 14</div></div>
+</section>
+
+<section data-label="02 History" data-speaker-notes="과거력: 고지혈증 10년, 무릎 골관절염 2.5기 연골주사 중, 유방암 병력, 상공막염. 수술력: 백내장, 아킬레스건, 충수절제. 알레르기 복숭아와 조영제. 사회력: 비흡연 비음주, 과거 식당 및 정육점 일 3-4년으로 반복적 손 사용력." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">02</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">History (PMH / Op / Med / FH / SH)</div></div>
+  </div>
+  <div style="flex:1;padding:22px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:26px;min-height:0;">
+    <div>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Past Medical History</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 11px;font-size:13px;line-height:1.45;">
+        <li style="padding-left:16px;margin-bottom:3px;">Dyslipidemia (10 yrs)</li>
+        <li style="padding-left:16px;margin-bottom:3px;">Knee OA (grade 2.5) — cartilage injection q6mo</li>
+        <li style="padding-left:16px;margin-bottom:3px;">Breast cancer (2002) · R eye episcleritis (2016)</li>
+        <li style="padding-left:16px;margin-bottom:3px;">DM(−) · HTN(−) · TB(−) · Hepatitis(−) · Osteoporosis(−)</li>
+      </ul>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Operation History</h3>
+      <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.45;">
+        <li style="padding-left:16px;margin-bottom:3px;">Cataract (2025) · Achilles tendon (2019)</li>
+        <li style="padding-left:16px;margin-bottom:3px;">Rt. mastectomy (2002) · Appendectomy (60 yrs ago)</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Medication · Allergy</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 11px;font-size:13px;line-height:1.45;">
+        <li style="padding-left:16px;margin-bottom:3px;">Dyslipidemia agent · Ginkgo leaf extract</li>
+        <li style="padding-left:16px;margin-bottom:3px;color:#C00000;font-weight:700;">Allergy: Peach · RCM (contrast)</li>
+      </ul>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Family History</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 11px;font-size:13px;line-height:1.45;"><li style="padding-left:16px;margin-bottom:3px;">Non-specific (N/S)</li></ul>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Social History</h3>
+      <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.45;">
+        <li style="padding-left:16px;margin-bottom:3px;">Smoking (−) · Alcohol (−) · currently housewife</li>
+        <li style="padding-left:16px;margin-bottom:3px;color:#C00000;font-weight:700;">Prior restaurant &amp; butcher work × 3–4 yrs → repetitive hand use</li>
+      </ul>
+    </div>
+  </div>
+  <div style="margin:0 48px 8px;background:#2E3D86;color:#fff;padding:10px 20px;font-size:12.5px;line-height:1.5;">Context favoring OA: age 72 · female · occupational repetitive hand use · established knee OA. <b>Note the RA history</b> is not in this record — the hand findings are being worked up de novo.</div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">02 / 14</div></div>
+</section>
+
+<section data-label="03 ROS & PE" data-speaker-notes="계통문진과 신체검진. ROS 양성: 안구건조, 결막충혈, 근육통. 구강건조 없음이 중요. 신체검진 핵심은 근골격계: 조조강직 5-10분, 양손 DIP Heberden 결절, 양측 2nd DIP 변형, 능동 운동시 통증 있으나 수동 운동시 통증 없음, 부어있거나 압통 있는 관절 없음." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">03</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Review of Systems &amp; Physical Examination</div></div>
+  </div>
+  <div style="flex:1;padding:22px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:46% 54%;gap:24px;min-height:0;">
+    <div>
+      <h3 style="font-size:14px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Review of Systems</h3>
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;">
+        <colgroup><col style="width:46%"><col style="width:54%"></colgroup>
+        <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">Positive (+)</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">Pertinent Negatives (−)</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:6px 10px;text-align:center;color:#C00000;font-weight:700;">Dry eye</td><td style="padding:6px 10px;text-align:center;">Dry mouth</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 10px;text-align:center;color:#C00000;font-weight:700;">Red eye</td><td style="padding:6px 10px;text-align:center;">Raynaud · oral/genital ulcer</td></tr>
+          <tr><td style="padding:6px 10px;text-align:center;color:#C00000;font-weight:700;">Myalgia</td><td style="padding:6px 10px;text-align:center;">Malar/discoid rash · photosens.</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 10px;text-align:center;">—</td><td style="padding:6px 10px;text-align:center;">SC nodules · dactylitis · psoriasis</td></tr>
+          <tr><td style="padding:6px 10px;text-align:center;">—</td><td style="padding:6px 10px;text-align:center;">Edema · nail change · back pain</td></tr>
+        </tbody>
+      </table>
+      <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:11px 16px;margin-top:12px;font-size:12.5px;line-height:1.5;">Ocular sicca <b>without</b> xerostomia or salivary swelling — a weak Sjögren signal.</div>
+    </div>
+    <div>
+      <div style="background:#2E3D86;color:#fff;padding:11px 18px;margin-bottom:10px;">
+        <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">V/S · GENERAL</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px;">
+          <div><div style="font-size:10px;color:#CCD2F0;">BP</div><div style="font-size:16px;font-weight:700;">128/74</div></div>
+          <div><div style="font-size:10px;color:#CCD2F0;">HR</div><div style="font-size:16px;font-weight:700;">72</div></div>
+          <div><div style="font-size:10px;color:#CCD2F0;">Appearance</div><div style="font-size:16px;font-weight:700;">Not ill-looking</div></div>
+        </div>
+      </div>
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;">
+        <colgroup><col style="width:26%"><col style="width:74%"></colgroup>
+        <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">System</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">Findings</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:6px 10px;text-align:center;">Musculoskeletal</td><td style="padding:6px 12px;text-align:left;color:#C00000;font-weight:700;">Bilateral DIP Heberden nodes (+) · bilateral 2nd DIP deformity · morning stiffness 5–10 min</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 10px;text-align:center;">— ROM</td><td style="padding:6px 12px;text-align:left;">Active ROM pain (+) · <b>Passive ROM pain (−)</b></td></tr>
+          <tr><td style="padding:6px 10px;text-align:center;">— Joint count</td><td style="padding:6px 12px;text-align:left;color:#C00000;font-weight:700;">SJ / TJ = 0 / 0 (no synovitis)</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 10px;text-align:center;">HEENT/Chest/Abd</td><td style="padding:6px 12px;text-align:left;">Non-specific</td></tr>
+          <tr><td style="padding:6px 10px;text-align:center;">Extremities/Skin</td><td style="padding:6px 12px;text-align:left;">Edema (−) · no rash, no nodules</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">03 / 14</div></div>
+</section>
+
+<section data-label="04 Initial Impression" data-speaker-notes="초기 인상. 감별을 세 갈래로 나열한다. 첫째 골관절염: 만성 골성 DIP/thumb IP 통증, Heberden 결절, 짧은 조조강직. 둘째 류마티스 관절염: 손 관절통에 RF 44.8 고양성. 셋째 결합조직질환/쇼그렌: 만성 안구건조, 결막충혈, 상공막염 병력. 이 세 축을 이후 검사로 하나씩 검증하고 배제한다." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">04</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Initial Impression — Differential</div></div>
+  </div>
+  <div style="flex:1;padding:26px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;min-height:0;">
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:13.5px;">
+      <colgroup><col style="width:8%"><col style="width:34%"><col style="width:58%"></colgroup>
+      <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:10px 12px;">#</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:10px 12px;">Differential (R/O)</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:10px 12px;">Why considered</th></tr></thead>
+      <tbody>
+        <tr><td style="padding:14px 12px;text-align:center;color:#C00000;font-weight:700;">1</td><td style="padding:14px 14px;text-align:left;color:#C00000;font-weight:700;">R/O Osteoarthritis</td><td style="padding:14px 14px;text-align:left;">Chronic bony DIP &amp; thumb IP pain · Heberden nodes · short (5–10 min) morning stiffness · use-related · concurrent knee OA</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:14px 12px;text-align:center;">2</td><td style="padding:14px 14px;text-align:left;font-weight:700;">R/O Rheumatoid Arthritis</td><td style="padding:14px 14px;text-align:left;">Polyarticular hand pain with a <span style="color:#C00000;font-weight:700;">high-positive RF (44.8)</span> — must be excluded</td></tr>
+        <tr><td style="padding:14px 12px;text-align:center;">3</td><td style="padding:14px 14px;text-align:left;font-weight:700;">R/O Connective Tissue Disease (Sjögren)</td><td style="padding:14px 14px;text-align:left;">Chronic dry eye + red eye + recurrent episcleritis — screen for sicca-associated autoimmunity</td></tr>
+      </tbody>
+    </table>
+    <div style="background:#2E3D86;color:#fff;padding:14px 22px;margin-top:18px;">
+      <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">STRATEGY</div>
+      <div style="font-size:14px;line-height:1.55;margin-top:7px;">These three axes are each targeted by the diagnostic work-up that follows — <b>labs &amp; serology</b> for RA and CTD, <b>hand X-ray</b> for OA — then narrowed to a single diagnosis.</div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">04 / 14</div></div>
+</section>
+
+<section data-label="05 Diagnostic Plan" data-speaker-notes="진단 계획. 세 감별을 각각 겨냥한다. OA는 양손 X-ray. RA는 RF, anti-CCP, ESR, CRP. 결합조직질환은 FANA, Anti-SSA/Ro, Anti-SSB/La, 필요시 Schirmer 검사, 안구 염색, 침샘 기능검사 및 생검. 이렇게 감별별로 검사를 배치한다." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">05</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Diagnostic Plan</div></div>
+  </div>
+  <div style="flex:1;padding:26px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;min-height:0;">
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px;">
+      <colgroup><col style="width:36%"><col style="width:64%"></colgroup>
+      <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:11px 14px;">Target Diagnosis</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:11px 14px;">Work-up</th></tr></thead>
+      <tbody>
+        <tr><td style="padding:15px 14px;text-align:left;color:#C00000;font-weight:700;">1 · Osteoarthritis</td><td style="padding:15px 16px;text-align:left;">Hand X-ray (both) — PA &amp; oblique</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:15px 14px;text-align:left;font-weight:700;">2 · Rheumatoid Arthritis</td><td style="padding:15px 16px;text-align:left;">RF · Anti-CCP Ab · ESR · CRP</td></tr>
+        <tr><td style="padding:15px 14px;text-align:left;font-weight:700;">3 · Connective Tissue Disease</td><td style="padding:15px 16px;text-align:left;">FANA · Anti-SSA/Ro · Anti-SSB/La<br><span style="color:#5A5E72;">if needed → Schirmer test · ocular staining · salivary gland function test / biopsy</span></td></tr>
+      </tbody>
+    </table>
+    <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:12px 18px;margin-top:18px;font-size:13.5px;line-height:1.5;">Each differential from the prior slide gets a dedicated test set — the results (next two slides) are read <b>against</b> these three hypotheses.</div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">05 / 14</div></div>
+</section>
+
+<section data-label="06 Labs & Serology" data-speaker-notes="검사 결과. CBC 정상, 크레아티닌 1.73 경도 상승. 핵심은 염증수치 ESR 11, CRP 0.04로 모두 정상. 혈청검사: RF 44.8 상승했으나 anti-CCP 음성, FANA 및 Anti-SSA/SSB 모두 음성. 정상 염증수치와 음성 anti-CCP는 RA를, 음성 자가항체는 결합조직질환을 강하게 낮춘다." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">06</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Laboratory &amp; Serology</div></div>
+  </div>
+  <div style="flex:1;padding:22px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:24px;min-height:0;">
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;align-self:start;">
+      <colgroup><col style="width:34%"><col style="width:30%"><col style="width:24%"><col style="width:12%"></colgroup>
+      <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Lab</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Result</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Ref</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;"></th></tr></thead>
+      <tbody>
+        <tr><td style="padding:6px 8px;text-align:center;">WBC</td><td style="padding:6px 8px;text-align:center;">4.63</td><td style="padding:6px 8px;text-align:center;">3.8–11.0</td><td style="padding:6px 8px;text-align:center;">WNL</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:6px 8px;text-align:center;">Hb</td><td style="padding:6px 8px;text-align:center;">12.8</td><td style="padding:6px 8px;text-align:center;">11.2–15.0</td><td style="padding:6px 8px;text-align:center;">WNL</td></tr>
+        <tr><td style="padding:6px 8px;text-align:center;">Platelet</td><td style="padding:6px 8px;text-align:center;">165</td><td style="padding:6px 8px;text-align:center;">140–420</td><td style="padding:6px 8px;text-align:center;">WNL</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:6px 8px;text-align:center;">Creatinine</td><td style="padding:6px 8px;text-align:center;color:#C00000;font-weight:700;">1.73</td><td style="padding:6px 8px;text-align:center;">0.4–1.2</td><td style="padding:6px 8px;text-align:center;color:#C00000;font-weight:700;">↑</td></tr>
+        <tr><td style="padding:6px 8px;text-align:center;">AST / ALT</td><td style="padding:6px 8px;text-align:center;">28 / 16</td><td style="padding:6px 8px;text-align:center;">0–40</td><td style="padding:6px 8px;text-align:center;">WNL</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:6px 8px;text-align:center;font-weight:700;">ESR</td><td style="padding:6px 8px;text-align:center;font-weight:700;">11</td><td style="padding:6px 8px;text-align:center;">0–15</td><td style="padding:6px 8px;text-align:center;font-weight:700;">WNL</td></tr>
+        <tr><td style="padding:6px 8px;text-align:center;font-weight:700;">CRP (hs)</td><td style="padding:6px 8px;text-align:center;font-weight:700;">0.04</td><td style="padding:6px 8px;text-align:center;">0–0.5</td><td style="padding:6px 8px;text-align:center;font-weight:700;">WNL</td></tr>
+      </tbody>
+    </table>
+    <div style="display:flex;flex-direction:column;gap:11px;">
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;">
+        <colgroup><col style="width:46%"><col style="width:34%"><col style="width:20%"></colgroup>
+        <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Serology</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Result</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 8px;">Ref</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:6px 8px;text-align:center;">RF (quant.)</td><td style="padding:6px 8px;text-align:center;color:#C00000;font-weight:700;">44.8 ↑↑</td><td style="padding:6px 8px;text-align:center;">0–14</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 8px;text-align:center;font-weight:700;">Anti-CCP Ab</td><td style="padding:6px 8px;text-align:center;font-weight:700;">Negative (1.2)</td><td style="padding:6px 8px;text-align:center;">0–5.0</td></tr>
+          <tr><td style="padding:6px 8px;text-align:center;">FANA</td><td style="padding:6px 8px;text-align:center;">&lt; 1:80</td><td style="padding:6px 8px;text-align:center;">≤1:80</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:6px 8px;text-align:center;">Anti-SSA / SSB</td><td style="padding:6px 8px;text-align:center;">Neg / Neg</td><td style="padding:6px 8px;text-align:center;">&lt;7</td></tr>
+          <tr><td style="padding:6px 8px;text-align:center;">MPO / PR-3 Ab</td><td style="padding:6px 8px;text-align:center;">Neg / Neg</td><td style="padding:6px 8px;text-align:center;">&lt;5.0</td></tr>
+        </tbody>
+      </table>
+      <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:12px 16px;">
+        <div style="color:#2E3D86;font-weight:700;font-size:13.5px;margin-bottom:4px;">Reads against the 3 axes</div>
+        <div style="font-size:12.5px;line-height:1.5;"><b>RA:</b> <span style="color:#C00000;font-weight:700;">normal ESR/CRP + anti-CCP (−)</span> despite RF+ → unlikely.<br><b>CTD:</b> FANA / SSA / SSB all (−) → little support.</div>
+      </div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">06 / 14</div></div>
+</section>
+
+<section data-label="07 Hand X-ray" data-speaker-notes="양손 방사선 사진 PA와 사면상. 소견: 양측 DIP와 thumb IP에 관절간격 협소와 골극 형성으로 골관절염 시사, 골성 비대 동반. 중요한 것은 marginal erosion이 없다는 점으로 RA를 배제하는 소견." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">07</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Imaging — Hand X-ray (both, PA / oblique)</div></div>
+  </div>
+  <div style="flex:1;padding:20px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:58% 42%;gap:26px;min-height:0;">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;align-content:start;">
+      <div style="text-align:center;"><img src="hand_oa/xray_R_pa.jpg" alt="Right hand PA" style="width:100%;height:auto;background:#000;border:1px solid #E8EBF8;display:block;"><div style="font-size:11px;color:#2E3D86;font-weight:700;margin-top:3px;">R · PA</div></div>
+      <div style="text-align:center;"><img src="hand_oa/xray_L_pa.jpg" alt="Left hand PA" style="width:100%;height:auto;background:#000;border:1px solid #E8EBF8;display:block;"><div style="font-size:11px;color:#2E3D86;font-weight:700;margin-top:3px;">L · PA</div></div>
+      <div style="text-align:center;"><img src="hand_oa/xray_R_obl.jpg" alt="Right hand oblique" style="width:100%;height:auto;background:#000;border:1px solid #E8EBF8;display:block;"><div style="font-size:11px;color:#2E3D86;font-weight:700;margin-top:3px;">R · Oblique</div></div>
+      <div style="text-align:center;"><img src="hand_oa/xray_L_obl.jpg" alt="Left hand oblique" style="width:100%;height:auto;background:#000;border:1px solid #E8EBF8;display:block;"><div style="font-size:11px;color:#2E3D86;font-weight:700;margin-top:3px;">L · Oblique</div></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;">
+      <div>
+        <h3 style="font-size:16px;font-weight:700;color:#2E3D86;margin:0 0 8px;">Radiographic Findings</h3>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:1.55;">
+          <li style="padding-left:16px;margin-bottom:7px;color:#C00000;font-weight:700;">Joint space narrowing + osteophytes at both DIP and thumb IP</li>
+          <li style="padding-left:16px;margin-bottom:7px;">Bony enlargement with osteophytes at thumb IP &amp; DIP</li>
+          <li style="padding-left:16px;margin-bottom:7px;color:#C00000;font-weight:700;">No marginal erosion</li>
+        </ul>
+      </div>
+      <div style="background:#2E3D86;color:#fff;padding:15px 20px;">
+        <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">READ</div>
+        <div style="font-size:13.5px;line-height:1.55;margin-top:9px;">Osteophyte + joint-space loss = OA signature; <span style="color:#CCD2F0;font-weight:700;">absence of marginal erosion</span> is the key negative against RA.</div>
+      </div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">07 / 14</div></div>
+</section>
+
+<section data-label="08 Assessment" data-speaker-notes="평가. 세 감별을 정리한다. 첫째 만성 비염증성 관절염 골관절염이 가장 합당: 관절 양상, 만성 경과, 짧은 조조강직, 골성 비대, 정상 염증수치, DIP 및 무릎 침범. 둘째 RA는 가능성 낮음: definite clinical synovitis 없어 2010 ACR/EULAR 진입기준 불만족, RF는 비특이적, anti-CCP 음성. 셋째 만성 안구건조는 혈청학적 근거 부족하나 객관적 검사 미시행으로 쇼그렌 완전 배제는 불가." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">08</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Assessment</div></div>
+  </div>
+  <div style="flex:1;padding:24px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;gap:13px;justify-content:center;min-height:0;">
+    <div style="border-left:5px solid #C00000;background:#E8EBF8;padding:13px 18px;">
+      <div style="color:#C00000;font-weight:700;font-size:15px;margin-bottom:3px;">1 · Osteoarthritis — most likely</div>
+      <div style="font-size:13px;line-height:1.5;">Chronic (5–6 yr), non-inflammatory (short stiffness, bony not soft swelling, normal ESR/CRP, no warmth), DIP + knee involvement with Heberden nodes and radiographic osteophytes/JSN → meets hand OA.</div>
+    </div>
+    <div style="border-left:5px solid #2E3D86;background:#fff;border-top:1px solid #E8EBF8;border-right:1px solid #E8EBF8;border-bottom:1px solid #E8EBF8;padding:13px 18px;">
+      <div style="color:#2E3D86;font-weight:700;font-size:15px;margin-bottom:3px;">2 · Rheumatoid Arthritis — less likely</div>
+      <div style="font-size:13px;line-height:1.5;">No definite clinical synovitis → <b>2010 ACR/EULAR entry criterion not met</b>. RF high but nonspecific; anti-CCP (−) and ESR/CRP normal.</div>
+    </div>
+    <div style="border-left:5px solid #2E3D86;background:#fff;border-top:1px solid #E8EBF8;border-right:1px solid #E8EBF8;border-bottom:1px solid #E8EBF8;padding:13px 18px;">
+      <div style="color:#2E3D86;font-weight:700;font-size:15px;margin-bottom:3px;">3 · Chronic dry eye — Sjögren not supported (not fully excluded)</div>
+      <div style="font-size:13px;line-height:1.5;">Anti-SSA/SSB and FANA (−); no xerostomia or salivary swelling. Schirmer / ocular staining / salivary biopsy not done → cannot be entirely ruled out.</div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">08 / 14</div></div>
+</section>
+
+<section data-label="09 Final Diagnosis" data-speaker-notes="최종진단은 손 골관절염. 1990 ACR 손 OA 분류기준 충족: 10개 선택관절 중 2개 이상 경조직 비대, 2개 이상 DIP 경조직 비대, 부어있는 MCP 3개 미만, 1개 이상 변형. 우측 2,4번째와 좌측 2,5번째 DIP에 Heberden 결절, 양측 2nd DIP와 우측 4th DIP에 lateral deviation 변형 관찰됨." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">09</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Final Diagnosis</div></div>
+  </div>
+  <div style="flex:1;padding:20px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;min-height:0;">
+    <div style="background:#2E3D86;color:#fff;padding:18px 26px;margin-bottom:16px;display:flex;align-items:center;gap:22px;">
+      <img src="hand_oa/illus-stethoscope.svg" alt="" style="width:70px;height:70px;flex:none;filter:brightness(0) invert(1);opacity:.85;">
+      <div>
+        <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">FINAL DIAGNOSIS</div>
+        <div style="font-size:30px;font-weight:700;line-height:1.15;margin-top:5px;">Hand Osteoarthritis</div>
+        <div style="font-size:14px;color:#CCD2F0;margin-top:4px;">Nodal / primary generalized OA — bilateral DIP + thumb IP (+ knee)</div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1;min-height:0;">
+      <div>
+        <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 8px;">1990 ACR Criteria — Hand OA</h3>
+        <div style="font-size:12px;color:#5A5E72;margin-bottom:8px;">Hand pain / stiffness + ≥3 of the following 4:</div>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.6;">
+          <li style="margin-bottom:5px;">✅ Hard-tissue enlargement of ≥2 of 10 selected joints</li>
+          <li style="margin-bottom:5px;">✅ Hard-tissue enlargement of ≥2 DIP joints</li>
+          <li style="margin-bottom:5px;">✅ Fewer than 3 swollen MCP joints</li>
+          <li style="margin-bottom:5px;">✅ Deformity of ≥1 of 10 selected joints</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 8px;">Supporting Exam Findings</h3>
+        <ul style="list-style:none;padding:0;margin:0;font-size:12.5px;line-height:1.55;">
+          <li style="padding-left:14px;margin-bottom:5px;">Heberden nodes at R 2nd/4th &amp; L 2nd/5th DIP</li>
+          <li style="padding-left:14px;margin-bottom:5px;">Lateral deviation deformity at both 2nd DIP &amp; R 4th DIP</li>
+          <li style="padding-left:14px;margin-bottom:5px;">No MCP swelling</li>
+          <li style="padding-left:14px;margin-bottom:5px;color:#C00000;font-weight:700;">→ Hand OA criteria satisfied</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">09 / 14</div></div>
+</section>
+
+<section data-label="10 Therapeutic Plan" data-speaker-notes="치료계획. 손 OA는 질병조절 치료가 없어 증상 조절이 목표. 비약물: 통증 유발 반복 손 사용 회피, 물리적 관리. 약물: 국소 NSAIDs 우선, 경구 NSAIDs는 중등도 이상에서 위장관 심혈관 신장 부작용 모니터링하며 사용, 고위험군은 PPI 병용 또는 COX-2. 필요시 관절강내 스테로이드. Opioid는 권고하지 않음. RA는 현재 DMARD 없이 추적, 안구건조는 인공눈물 유지." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">10</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Therapeutic Plan</div></div>
+  </div>
+  <div style="flex:1;padding:22px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:38% 62%;gap:26px;min-height:0;">
+    <div style="display:flex;flex-direction:column;gap:12px;">
+      <div style="background:#2E3D86;color:#fff;padding:15px 20px;">
+        <div style="font-size:11px;letter-spacing:.12em;color:#CCD2F0;font-weight:700;">GOAL</div>
+        <div style="font-size:17px;font-weight:700;margin-top:6px;line-height:1.25;">Symptom control</div>
+        <div style="font-size:12.5px;margin-top:4px;color:#CCD2F0;">No disease-modifying therapy exists for OA</div>
+      </div>
+      <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:13px 18px;">
+        <div style="color:#2E3D86;font-weight:700;font-size:14px;margin-bottom:5px;">Non-pharmacologic</div>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.5;">
+          <li style="padding-left:14px;margin-bottom:4px;">Avoid painful &amp; repetitive hand use</li>
+          <li style="padding-left:14px;margin-bottom:4px;">Physical management modalities</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:14px;font-weight:700;color:#2E3D86;margin:0 0 5px;">Other Problems</h3>
+        <ul style="list-style:none;padding:0;margin:0;font-size:12.5px;line-height:1.5;">
+          <li style="padding-left:14px;margin-bottom:3px;"><b>RA:</b> no DMARD now → monitor, reassess if synovitis</li>
+          <li style="padding-left:14px;margin-bottom:3px;"><b>Dry eye:</b> continue tears · ophthalmology f/u</li>
+        </ul>
+      </div>
+    </div>
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;align-self:start;font-size:12.5px;">
+      <colgroup><col style="width:28%"><col style="width:72%"></colgroup>
+      <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:8px 10px;">Pharmacotherapy</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:8px 10px;">Notes</th></tr></thead>
+      <tbody>
+        <tr><td style="padding:8px 10px;text-align:center;font-weight:700;">Topical NSAIDs</td><td style="padding:8px 12px;text-align:left;">First-line for mild pain; PRN → daily if persistent</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:8px 10px;text-align:center;font-weight:700;">Oral NSAIDs</td><td style="padding:8px 12px;text-align:left;color:#C00000;font-weight:700;">Moderate pain; monitor GI / CV / renal · add PPI or COX-2 if high GI risk</td></tr>
+        <tr><td style="padding:8px 10px;text-align:center;font-weight:700;">IA glucocorticoid</td><td style="padding:8px 12px;text-align:left;">Acute flare with synovitis; limit repeat (cartilage loss)</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:8px 10px;text-align:center;font-weight:700;">Methotrexate</td><td style="padding:8px 12px;text-align:left;">Some benefit reported — not standard therapy</td></tr>
+        <tr><td style="padding:8px 10px;text-align:center;font-weight:700;">Curcumin</td><td style="padding:8px 12px;text-align:left;">Anti-inflammatory adjunct</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:8px 10px;text-align:center;font-weight:700;">Opioids</td><td style="padding:8px 12px;text-align:left;color:#C00000;font-weight:700;">Not recommended — dependence, unclear long-term benefit</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">10 / 14</div></div>
+</section>
+
+<section data-label="11 Course & Follow-up" data-speaker-notes="경과 및 추적계획. 이 환자는 입원 없이 외래에서 관리되는 만성 증례로, 급성 병원경과는 없다. 대신 외래 추적 계획: 증상 조절 시작, 관절 보호. 모니터링에서 명확한 synovitis나 염증성 관절염 소견이 나타나면 RA 재평가 및 DMARD 고려. 안구건조는 인공눈물 유지하고 악화 시 안과에서 Schirmer 등 객관적 검사." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">11</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Clinical Course &amp; Follow-up Plan</div></div>
+  </div>
+  <div style="flex:1;padding:24px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;min-height:0;">
+    <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:11px 18px;margin-bottom:16px;font-size:13px;line-height:1.5;">Chronic outpatient case — <b>no admission / no acute hospital course.</b> Managed with symptomatic therapy and structured surveillance for evolution to inflammatory arthritis.</div>
+    <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px;">
+      <colgroup><col style="width:24%"><col style="width:40%"><col style="width:36%"></colgroup>
+      <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:9px 12px;">Problem</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:9px 12px;">Plan</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:9px 12px;">Monitor / Trigger to escalate</th></tr></thead>
+      <tbody>
+        <tr><td style="padding:11px 12px;text-align:center;color:#C00000;font-weight:700;">Hand OA</td><td style="padding:11px 12px;text-align:left;">Topical → oral NSAIDs · joint protection</td><td style="padding:11px 12px;text-align:left;">Pain / function at OPD visits</td></tr>
+        <tr style="background:#E8EBF8;"><td style="padding:11px 12px;text-align:center;">RA (less likely)</td><td style="padding:11px 12px;text-align:left;">No DMARD now · watchful follow-up</td><td style="padding:11px 12px;text-align:left;color:#C00000;font-weight:700;">New synovitis / ↑ ESR-CRP → re-evaluate, consider DMARD</td></tr>
+        <tr><td style="padding:11px 12px;text-align:center;">Chronic dry eye</td><td style="padding:11px 12px;text-align:left;">Continue artificial tears</td><td style="padding:11px 12px;text-align:left;">If worsens → ophthalmology, Schirmer / staining</td></tr>
+      </tbody>
+    </table>
+    <div style="background:#2E3D86;color:#fff;padding:13px 20px;margin-top:16px;font-size:13px;line-height:1.55;">The key follow-up question is <b>whether non-inflammatory OA later declares itself as inflammatory arthritis</b> — surveillance is targeted at that transition.</div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">11 / 14</div></div>
+</section>
+
+<section data-label="12 Review: OA Basics" data-speaker-notes="질환 리뷰 첫 번째. 골관절염 정의: 가장 흔한 관절질환으로 관절연골 퇴행과 연골하골 재형성, 골극 형성이 특징인 비염증성 관절질환. 병태생리: 기계적 스트레스와 생물학적 인자가 연골세포 대사 불균형을 일으켜 기질 분해 효소 증가와 연골 소실. 분류: 원발성(국소/전신)과 이차성. 손 OA 아형: 결절성 Heberden Bouchard, 무지기저부, 미란성." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">12</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Disease Review · Osteoarthritis</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">OA — Definition · Pathophysiology · Classification</div></div>
+  </div>
+  <div style="flex:1;padding:22px 48px 14px;box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:26px;min-height:0;">
+    <div>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Definition</h3>
+      <div style="font-size:13px;line-height:1.5;margin-bottom:12px;">Most common joint disease — progressive loss of articular cartilage with subchondral bone remodeling and osteophyte formation. Fundamentally a <b>non-inflammatory</b>, mechanically driven disorder.</div>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Pathophysiology</h3>
+      <ul style="list-style:none;padding:0;margin:0;font-size:12.5px;line-height:1.5;">
+        <li style="padding-left:14px;margin-bottom:4px;">Mechanical stress + biologic factors → chondrocyte imbalance</li>
+        <li style="padding-left:14px;margin-bottom:4px;">↑ matrix metalloproteinases → cartilage matrix breakdown</li>
+        <li style="padding-left:14px;margin-bottom:4px;">Cartilage loss · subchondral sclerosis · osteophytes</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Classification</h3>
+      <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;margin-bottom:12px;">
+        <colgroup><col style="width:34%"><col style="width:66%"></colgroup>
+        <thead><tr><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">Type</th><th style="background:#2E3D86;color:#fff;font-weight:700;padding:7px 10px;">Examples</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:7px 10px;text-align:center;">Primary</td><td style="padding:7px 12px;text-align:left;">Localized (hand, knee, hip, spine) or generalized</td></tr>
+          <tr style="background:#E8EBF8;"><td style="padding:7px 10px;text-align:center;">Secondary</td><td style="padding:7px 12px;text-align:left;">Trauma · metabolic · congenital · inflammatory</td></tr>
+        </tbody>
+      </table>
+      <h3 style="font-size:15px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Hand OA subtypes</h3>
+      <ul style="list-style:none;padding:0;margin:0;font-size:12.5px;line-height:1.5;">
+        <li style="padding-left:14px;margin-bottom:4px;">Nodal — Heberden (DIP) &amp; Bouchard (PIP)</li>
+        <li style="padding-left:14px;margin-bottom:4px;">Thumb-base (1st CMC) OA</li>
+        <li style="padding-left:14px;margin-bottom:4px;">Erosive (inflammatory) OA</li>
+      </ul>
+      <div style="background:#E8EBF8;border:1px solid #2E3D86;padding:9px 14px;margin-top:11px;font-size:12px;line-height:1.45;">Risk: age · female · obesity · joint overuse / occupation · genetics.</div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>REVIEW · OA</div><div style="color:#2E3D86;font-weight:700;">12 / 14</div></div>
+</section>
+
+<section data-label="13 Review: Dx & Mgmt" data-speaker-notes="질환 리뷰 두 번째. 진단은 임상과 방사선 소견: 관절간격 협소, 골극, 연골하 경화, 미란 없음, 1990 ACR 기준. RF 함정이 핵심: RF는 RA에 특이적이지 않으며 건강한 고령의 5-25퍼센트, 다른 자가면역질환, 만성 감염, C형 간염에서도 양성. Anti-CCP가 특이적. 치료: 비약물 교육 운동 관절보호 보조기, 국소 NSAIDs 우선, 경구 NSAIDs 최소 유효용량, 급성기 관절강내 스테로이드. OA에 DMARD는 적응증 아님." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">13</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Disease Review · Osteoarthritis</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Hand OA — Diagnosis, the RF Pitfall &amp; Management</div></div>
+  </div>
+  <div style="flex:1;padding:20px 48px 12px;box-sizing:border-box;display:flex;flex-direction:column;min-height:0;">
+    <div style="background:#C00000;color:#fff;padding:13px 24px;margin-bottom:14px;display:flex;align-items:baseline;gap:22px;">
+      <div style="font-size:24px;font-weight:700;letter-spacing:-0.01em;">"A positive RF is not a diagnosis."</div>
+      <div style="font-size:12px;opacity:.95;">Interpret it against anti-CCP, ESR/CRP, and the joint exam</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;min-height:0;">
+      <div>
+        <h3 style="font-size:14px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Diagnosis</h3>
+        <ul style="list-style:none;padding:0;margin:0 0 11px;font-size:12.5px;line-height:1.5;">
+          <li style="padding-left:14px;margin-bottom:4px;">Clinical + radiographic: JSN, osteophytes, subchondral sclerosis, <b>no erosion</b></li>
+          <li style="padding-left:14px;margin-bottom:4px;">1990 ACR classification criteria for hand OA</li>
+        </ul>
+        <h3 style="font-size:14px;font-weight:700;color:#2E3D86;margin:0 0 6px;">The RF Pitfall</h3>
+        <ul style="list-style:none;padding:0;margin:0;font-size:12.5px;line-height:1.5;">
+          <li style="padding-left:14px;margin-bottom:4px;">RF nonspecific — positive in healthy elderly, other autoimmune disease, chronic infection, HCV</li>
+          <li style="padding-left:14px;margin-bottom:4px;color:#C00000;font-weight:700;">Anti-CCP is the RA-specific antibody</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:14px;font-weight:700;color:#2E3D86;margin:0 0 6px;">Management (ACR / OARSI)</h3>
+        <table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;">
+          <colgroup><col style="width:32%"><col style="width:68%"></colgroup>
+          <tbody>
+            <tr><td style="padding:7px 10px;text-align:center;font-weight:700;">Non-pharm</td><td style="padding:7px 12px;text-align:left;">Education · hand exercise · joint protection · thumb-base orthosis · heat</td></tr>
+            <tr style="background:#E8EBF8;"><td style="padding:7px 10px;text-align:center;font-weight:700;">First-line</td><td style="padding:7px 12px;text-align:left;">Topical NSAIDs</td></tr>
+            <tr><td style="padding:7px 10px;text-align:center;font-weight:700;">Escalation</td><td style="padding:7px 12px;text-align:left;">Oral NSAIDs (lowest effective dose) · IA steroid for flares</td></tr>
+            <tr style="background:#E8EBF8;"><td style="padding:7px 10px;text-align:center;font-weight:700;">Not indicated</td><td style="padding:7px 12px;text-align:left;color:#C00000;font-weight:700;">DMARDs (no role in OA) · routine opioids</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>REVIEW · OA</div><div style="color:#2E3D86;font-weight:700;">13 / 14</div></div>
+</section>
+
+<section data-label="14 Reference" data-speaker-notes="참고문헌. Harrison 내과학 22판, 1990 ACR 손 OA 분류기준, 2010 ACR/EULAR RA 분류기준, ACR 골관절염 진료지침." style="background:#fff;color:#000;font-family:'Pretendard',sans-serif;height:100%;display:flex;flex-direction:column;overflow:hidden;">
+  <div style="height:84px;padding:8px 48px 0;border-bottom:2px solid #2E3D86;display:flex;align-items:center;gap:18px;box-sizing:border-box;flex:none;">
+    <div style="font-size:40px;font-weight:700;color:#2E3D86;letter-spacing:-0.02em;line-height:1;min-width:60px;">14</div>
+    <div style="display:flex;flex-direction:column;gap:4px;"><div style="font-size:12px;color:#000;">Medical Student Case Presentation</div><div style="font-size:19px;font-weight:700;color:#2E3D86;">Reference</div></div>
+  </div>
+  <div style="flex:1;padding:34px 48px 14px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;min-height:0;">
+    <ul style="list-style:none;padding:0;margin:0;font-size:15px;line-height:1.8;">
+      <li style="padding-left:20px;margin-bottom:12px;border-left:3px solid #2E3D86;padding-top:2px;padding-bottom:2px;">Loscalzo J, Fauci AS, Kasper DL, et al., eds. <b>Harrison's Principles of Internal Medicine</b>. 22nd ed. McGraw Hill; 2024.</li>
+      <li style="padding-left:20px;margin-bottom:12px;border-left:3px solid #2E3D86;padding-top:2px;padding-bottom:2px;">American College of Rheumatology Subcommittee on Osteoarthritis Guidelines. <b>Arthritis Rheum</b> 43(9):1905–15, 2000.</li>
+      <li style="padding-left:20px;margin-bottom:12px;border-left:3px solid #2E3D86;padding-top:2px;padding-bottom:2px;"><b>1990 ACR</b> Classification Criteria for Hand OA · <b>2010 ACR/EULAR</b> Classification Criteria for RA.</li>
+    </ul>
+  </div>
+  <div style="flex:none;margin:0 48px;height:32px;border-top:1px solid #E8EBF8;display:flex;align-items:center;justify-content:space-between;font-size:11px;"><div style="display:flex;align-items:center;gap:10px;color:#2E3D86;font-weight:700;letter-spacing:.08em;"><span style="width:6px;height:6px;background:#C00000;border-radius:50%;"></span>CASE · HAND OA</div><div style="color:#2E3D86;font-weight:700;">14 / 14</div></div>
+</section>
+
+</x-import>
+</x-dc>
+</body>
+</html>

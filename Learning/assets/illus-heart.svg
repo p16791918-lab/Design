@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-hidden="true">
+  <rect width="200" height="200" fill="#2E3D86"></rect>
+  <g fill="none" stroke="#CCD2F0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M100 50 C80 30 50 40 50 75 C50 110 80 135 100 165 C120 135 150 110 150 75 C150 40 120 30 100 50 Z"></path>
+    
+    <path d="M100 55 Q95 80 85 100 Q80 120 90 135"></path>
+    <path d="M100 55 Q105 85 118 105 Q125 125 115 140"></path>
+    
+    <circle cx="92" cy="105" r="4" fill="#C00000" stroke="none"></circle>
+  </g>
+  <text x="100" y="190" text-anchor="middle" font-family="Pretendard, system-ui" font-size="9" font-weight="700" fill="#CCD2F0" letter-spacing=".15em">CARDIOVASCULAR</text>
+</svg>

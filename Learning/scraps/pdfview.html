@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<style>body{margin:0;background:#fff}canvas{display:block;width:100%;border-bottom:2px solid red}</style>
+</head><body>
+<div id="c"></div>
+<script>
+const url = new URLSearchParams(location.search).get('f');
+(async()=>{
+ try{
+  // build worker from blob to dodge CSP/module issues
+  const wjs = await (await fetch('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js')).text();
+  pdfjsLib.GlobalWorkerOptions.workerSrc = URL.createObjectURL(new Blob([wjs],{type:'text/javascript'}));
+  const pdf = await pdfjsLib.getDocument(url).promise;
+  window.__npages = pdf.numPages;
+  const texts=[];
+  for(let p=1;p<=pdf.numPages;p++){
+    const page=await pdf.getPage(p);
+    const tc=await page.getTextContent();
+    texts.push('=== PAGE '+p+' ===\n'+tc.items.map(i=>i.str).join(' '));
+    const vp=page.getViewport({scale:1.5});
+    const cv=document.createElement('canvas');
+    cv.width=vp.width;cv.height=vp.height;
+    await page.render({canvasContext:cv.getContext('2d'),viewport:vp}).promise;
+    document.getElementById('c').appendChild(cv);
+  }
+  window.__text = texts.join('\n\n');
+  document.title='DONE '+pdf.numPages;
+ }catch(e){ window.__err=String(e&&e.stack||e); document.title='ERR'; }
+})();
+</script>
+</body></html>
